@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+
+ <listeners>
+    <listener class-name="com.companyname.projectname.modulename.listerners.CustomListeners" />
+  </listeners>
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP"/>
+      <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM"/>
+     <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_1"/>
+     <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_2"/>
+     <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_3"/>
+     <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
