@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="3" failed="0" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-27T19:05:16 IST" name="Regression Suite" finished-at="2024-09-27T19:06:07 IST" duration-ms="50717">
+  <suite started-at="2024-10-07T22:07:05 IST" name="Regression Suite" finished-at="2024-10-07T22:09:16 IST" duration-ms="131474">
     <groups>
     </groups>
-    <test started-at="2024-09-27T19:05:16 IST" name="Test" finished-at="2024-09-27T19:06:07 IST" duration-ms="50717">
+    <test started-at="2024-10-07T22:07:05 IST" name="Test" finished-at="2024-10-07T22:09:16 IST" duration-ms="131474">
       <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP">
-        <test-method is-config="true" signature="loadPropFiles()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@17f9d882]" started-at="2024-09-27T19:05:14 IST" name="loadPropFiles" finished-at="2024-09-27T19:05:16 IST" duration-ms="2861" status="PASS">
+        <test-method is-config="true" signature="loadPropFiles()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@8519cb4]" started-at="2024-10-07T22:07:01 IST" name="loadPropFiles" finished-at="2024-10-07T22:07:05 IST" duration-ms="3196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadPropFiles -->
-        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@17f9d882]" started-at="2024-09-27T19:05:16 IST" name="getTestCaseName" finished-at="2024-09-27T19:05:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@8519cb4]" started-at="2024-10-07T22:07:05 IST" name="getTestCaseName" finished-at="2024-10-07T22:07:05 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestCaseName -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@17f9d882]" started-at="2024-09-27T19:05:17 IST" name="launchBrowser" finished-at="2024-09-27T19:05:32 IST" duration-ms="14976" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@8519cb4]" started-at="2024-10-07T22:07:05 IST" name="launchBrowser" finished-at="2024-10-07T22:07:42 IST" duration-ms="37086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="registerNewUserTestDataWithDP(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@17f9d882]" started-at="2024-09-27T19:05:32 IST" name="registerNewUserTestDataWithDP" data-provider="data_Collection" finished-at="2024-09-27T19:05:38 IST" duration-ms="6027" status="PASS">
+        <test-method signature="registerNewUserTestDataWithDP(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@8519cb4]" started-at="2024-10-07T22:07:42 IST" name="registerNewUserTestDataWithDP" data-provider="data_Collection" finished-at="2024-10-07T22:07:51 IST" duration-ms="9681" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,25 +30,65 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerNewUserTestDataWithDP -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@17f9d882]" started-at="2024-09-27T19:05:38 IST" name="tearDown" finished-at="2024-09-27T19:05:43 IST" duration-ms="5520" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@8519cb4]" started-at="2024-10-07T22:07:52 IST" name="tearDown" finished-at="2024-10-07T22:07:57 IST" duration-ms="5853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@17f9d882]" started-at="2024-09-27T19:06:07 IST" name="generateReport" finished-at="2024-09-27T19:06:08 IST" duration-ms="616" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP@8519cb4]" started-at="2024-10-07T22:09:16 IST" name="generateReport" finished-at="2024-10-07T22:09:17 IST" duration-ms="1001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP -->
       <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM">
-        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM@1349883]" started-at="2024-09-27T19:05:43 IST" name="getTestCaseName" finished-at="2024-09-27T19:05:43 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM@72cc7e6f]" started-at="2024-10-07T22:07:57 IST" name="getTestCaseName" finished-at="2024-10-07T22:07:57 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test case as Run mode is set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test case as Run mode is set to No
+at com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM.getTestCaseName(RegisterNewUserTestDataWithDP_POM.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestCaseName -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM@1349883]" started-at="2024-09-27T19:05:43 IST" name="launchBrowser" finished-at="2024-09-27T19:05:54 IST" duration-ms="10455" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM@72cc7e6f]" started-at="2024-10-07T22:07:57 IST" name="launchBrowser" finished-at="2024-10-07T22:07:57 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="registerNewUserTestDataWithDP_POM(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM@1349883]" started-at="2024-09-27T19:05:54 IST" name="registerNewUserTestDataWithDP_POM" data-provider="data_Collection" finished-at="2024-09-27T19:06:01 IST" duration-ms="7854" status="PASS">
+        <test-method signature="registerNewUserTestDataWithDP_POM(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM@72cc7e6f]" started-at="2024-10-07T22:07:57 IST" name="registerNewUserTestDataWithDP_POM" data-provider="data_Collection" finished-at="2024-10-07T22:07:57 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -56,14 +96,419 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test case as Run mode is set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test case as Run mode is set to No
+at com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM.getTestCaseName(RegisterNewUserTestDataWithDP_POM.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerNewUserTestDataWithDP_POM -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM@1349883]" started-at="2024-09-27T19:06:01 IST" name="tearDown" finished-at="2024-09-27T19:06:07 IST" duration-ms="5799" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM@72cc7e6f]" started-at="2024-10-07T22:07:57 IST" name="tearDown" finished-at="2024-10-07T22:08:02 IST" duration-ms="5012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM -->
+      <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_4">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_4@18271936]" started-at="2024-10-07T22:08:44 IST" name="getTestCaseName" finished-at="2024-10-07T22:08:44 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test case as Run mode is set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test case as Run mode is set to No
+at com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_4.getTestCaseName(RegisterNewUserTestDataWithDP_POM_4.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestCaseName -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_4@18271936]" started-at="2024-10-07T22:08:44 IST" name="launchBrowser" finished-at="2024-10-07T22:08:44 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="registerNewUserTestDataWithDP_POM_4(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_4@18271936]" started-at="2024-10-07T22:08:44 IST" name="registerNewUserTestDataWithDP_POM_4" data-provider="data_Collection" finished-at="2024-10-07T22:08:44 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Home_Page_Text=New User Signup!, Accnt_Info_Page_Text=ENTER ACCOUNT INFORMATION, Pin_Code=435234, Last_Name=Shweta_LastName, Address=Shweta_Address, DOB_Year=1995, DOB_Month=May, Mobile_no=34567893456, City=Pune, DOB_Days=14, First_Name=Shweta, Page_Title=Automation Exercise, Email_Address=Shweta_test@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test case as Run mode is set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test case as Run mode is set to No
+at com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_4.getTestCaseName(RegisterNewUserTestDataWithDP_POM_4.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUserTestDataWithDP_POM_4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_4@18271936]" started-at="2024-10-07T22:08:44 IST" name="tearDown" finished-at="2024-10-07T22:08:49 IST" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_4 -->
+      <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_3">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_3@909217e]" started-at="2024-10-07T22:08:39 IST" name="getTestCaseName" finished-at="2024-10-07T22:08:39 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test case as Run mode is set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test case as Run mode is set to No
+at com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_3.getTestCaseName(RegisterNewUserTestDataWithDP_POM_3.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestCaseName -->
+        <test-method signature="registerNewUserTestDataWithDP_POM_3(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_3@909217e]" started-at="2024-10-07T22:08:39 IST" name="registerNewUserTestDataWithDP_POM_3" data-provider="data_Collection" finished-at="2024-10-07T22:08:39 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Home_Page_Text=New User Signup!, Accnt_Info_Page_Text=ENTER ACCOUNT INFORMATION, Pin_Code=43524334, Last_Name=Akshay_Last_Name, Address=Akshay_Address, DOB_Year=1999, DOB_Month=September, Mobile_no=5345354353, City=HYD, DOB_Days=18, First_Name=Akshay, Page_Title=Automation Exercise, Email_Address=Akshay_test@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test case as Run mode is set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test case as Run mode is set to No
+at com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_3.getTestCaseName(RegisterNewUserTestDataWithDP_POM_3.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUserTestDataWithDP_POM_3 -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_3@909217e]" started-at="2024-10-07T22:08:39 IST" name="launchBrowser" finished-at="2024-10-07T22:08:39 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_3@909217e]" started-at="2024-10-07T22:08:39 IST" name="tearDown" finished-at="2024-10-07T22:08:44 IST" duration-ms="5014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_3 -->
+      <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_2">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_2@72035809]" started-at="2024-10-07T22:08:07 IST" name="getTestCaseName" finished-at="2024-10-07T22:08:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestCaseName -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_2@72035809]" started-at="2024-10-07T22:08:07 IST" name="launchBrowser" finished-at="2024-10-07T22:08:24 IST" duration-ms="16493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="registerNewUserTestDataWithDP_POM_2(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_2@72035809]" started-at="2024-10-07T22:08:24 IST" name="registerNewUserTestDataWithDP_POM_2" data-provider="data_Collection" finished-at="2024-10-07T22:08:33 IST" duration-ms="9516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Home_Page_Text=New User Signup!, Accnt_Info_Page_Text=ENTER ACCOUNT INFORMATION, Pin_Code=43524334, Last_Name=Sunil_LastName, Address=Sunil_Address, DOB_Year=1998, DOB_Month=August, Mobile_no=33242427893456, City=HYD, DOB_Days=17, First_Name=Sunil, Page_Title=Automation Exercise, Email_Address=Sunil_test@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUserTestDataWithDP_POM_2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_2@72035809]" started-at="2024-10-07T22:08:33 IST" name="tearDown" finished-at="2024-10-07T22:08:39 IST" duration-ms="5726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_2 -->
+      <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_1">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_1@5afa3c9]" started-at="2024-10-07T22:08:02 IST" name="getTestCaseName" finished-at="2024-10-07T22:08:02 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test case as Run mode is set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test case as Run mode is set to No
+at com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_1.getTestCaseName(RegisterNewUserTestDataWithDP_POM_1.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestCaseName -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_1@5afa3c9]" started-at="2024-10-07T22:08:02 IST" name="launchBrowser" finished-at="2024-10-07T22:08:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="registerNewUserTestDataWithDP_POM_1(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_1@5afa3c9]" started-at="2024-10-07T22:08:02 IST" name="registerNewUserTestDataWithDP_POM_1" data-provider="data_Collection" finished-at="2024-10-07T22:08:02 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Home_Page_Text=New User Signup!, Accnt_Info_Page_Text=ENTER ACCOUNT INFORMATION, Pin_Code=4352453434, Last_Name=Pramod_LastName, Address=Pramod_Address, DOB_Year=1997, DOB_Month=July, Mobile_no=3453343, City=Pune, DOB_Days=16, First_Name=Pramod, Page_Title=Automation Exercise, Email_Address=Pramod_test@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Test case as Run mode is set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Test case as Run mode is set to No
+at com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_1.getTestCaseName(RegisterNewUserTestDataWithDP_POM_1.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUserTestDataWithDP_POM_1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_1@5afa3c9]" started-at="2024-10-07T22:08:02 IST" name="tearDown" finished-at="2024-10-07T22:08:07 IST" duration-ms="5016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_1 -->
+      <class name="com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_5">
+        <test-method is-config="true" signature="getTestCaseName()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_5@606e4010]" started-at="2024-10-07T22:08:49 IST" name="getTestCaseName" finished-at="2024-10-07T22:08:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestCaseName -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_5@606e4010]" started-at="2024-10-07T22:08:49 IST" name="launchBrowser" finished-at="2024-10-07T22:08:58 IST" duration-ms="8898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="registerNewUserTestDataWithDP_POM_5(java.util.Hashtable)[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_5@606e4010]" started-at="2024-10-07T22:08:58 IST" name="registerNewUserTestDataWithDP_POM_5" data-provider="data_Collection" finished-at="2024-10-07T22:09:11 IST" duration-ms="12408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Home_Page_Text=New User Signup!, Accnt_Info_Page_Text=ENTER ACCOUNT INFORMATION, Pin_Code=435234, Last_Name=Concept, Address=Shweta_Address, DOB_Year=1995, DOB_Month=May, Mobile_no=34567893456, City=Pune, DOB_Days=14, First_Name=GitHub, Page_Title=Automation Exercise, Email_Address=Shweta_test@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUserTestDataWithDP_POM_5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_5@606e4010]" started-at="2024-10-07T22:09:11 IST" name="tearDown" finished-at="2024-10-07T22:09:16 IST" duration-ms="5548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.companyname.projectname.modulename.testcases.RegisterNewUserTestDataWithDP_POM_5 -->
     </test> <!-- Test -->
   </suite> <!-- Regression Suite -->
 </testng-results>
